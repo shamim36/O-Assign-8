@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
       builder: (context) {
         return MaterialApp(
           theme: ThemeData(
-              appBarTheme: AppBarTheme(
+              appBarTheme: const AppBarTheme(
                   backgroundColor: Colors.blueAccent,
                   foregroundColor: Colors.white)),
           title: 'Assignment 08',
